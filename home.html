@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <title>Contoh Hyperlink - Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: Arial, sans-serif; padding:20px; line-height:1.5; }
+    nav a { margin-right: 12px; text-decoration:none; color: #c00; font-weight:600; }
+    hr.blue { border: 0; height:3px; background: #007bff; width:50%; }
+    .container { max-width:900px; }
+    .banner { background:#f5f5f5; padding:12px; border-radius:8px; margin-bottom:12px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <hr class="blue">
+    <nav>
+      <a href="home.html">Home</a> |
+      <a href="profil.html">Profil</a> |
+      <a href="about.html">About</a> |
+      <a href="galery.html">Gallery</a> |
+      <a href="kontak.html">Kontak</a>
+    </nav>
+    <hr class="blue">
+
+    <div class="banner">
+      <h2>Assalammualaikum Wr. Wb.</h2>
+      <p>Apakabar semua. Salam kenal — ini adalah web perdana saya. Web ini berisi informasi tentang kegemaran saya dan contoh penggunaan hyperlink.</p>
+      <p>Silakan cek <a href="http://www.google.com" target="_blank" rel="noopener">Google (link absolute)</a> untuk contoh link ke situs lain.</p>
+      <p>Untuk menghubungi saya: <a href="mailto:endar_nirmala@yahoo.com">kirim email</a></p>
+    </div>
+
+    <h3>Contoh Anchor (link ke bagian dalam halaman):</h3>
+    <p>Langsung ke bagian <a href="#pengenalan">Pengenalan</a> di bawah.</p>
+
+    <p>Lorem ipsum dolor sit amet — isi konten panjang supaya terlihat fungsi anchor.</p>
+    <p style="margin-top:400px;"><!-- buat jarak supaya scrolling terasa -->
+      &nbsp;
+    </p>
+
+    <h3 id="pengenalan">Pengenalan</h3>
+    <p>Ini adalah bagian pengenalan. Anda dapat kembali ke <a href="home.html">Home</a> atau ke <a href="profil.html">Profil</a>.</p>
+
+  </div>
+</body>
+</html>
